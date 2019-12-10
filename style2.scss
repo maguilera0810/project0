@@ -1,0 +1,49 @@
+$max-percen: 80%;
+$factor-percen: 10%;
+$color1: aliceblue;
+$color2: coral;
+%back-color {
+    background-color: $color1;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: $max-percen;
+    margin-bottom: $factor-percen/5;
+}
+
+
+/* header {
+    background-color: $color1;
+} */
+
+#tcentrado {
+    @extend %back-color;
+    align-content: center;
+    margin-left: 2 *$factor-percen;
+    margin-bottom: 1%;
+    width: $max-percen - 2 *$factor-percen;
+    height: 2 * $factor-percen;
+}
+
+.tabla_index {
+    @extend %back-color;
+    margin-left: $factor-percen;
+    margin-right: $factor-percen;
+    .tbcontent {
+        text-align: center;
+    }
+}
+
+@media (min-width:1200px) {
+    #tcentrado {
+        background-color: $color1;
+    }
+}
+
+@media (max-width:1199px) {
+    #tcentrado {
+        background-color: $color2;
+    }
+}
