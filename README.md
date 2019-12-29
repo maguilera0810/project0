@@ -13,7 +13,9 @@ Youtube:
 
 Structure:
 
-    -html files: index.html, agua.html, tierra.html, fuego.html and aire.html . It is possible navigate to each one of the html pages from every page.
+    -html files: index.html, agua.html, tierra.html, 
+        fuego.html and aire.html . It is possible navigate 
+        to each one of the html pages from every page.
 
     -Two css files and 1 scss file
 
